@@ -1,0 +1,60 @@
+.aboutMe {
+    height: 90vh;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 7%;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 2em;
+    padding: 2.5rem;
+    margin-left: 30%;
+    background-color: antiquewhite;
+    text-align: center;
+    /* padding: 1.5em 0.5em 0.5em; */
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .card img {
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .card .card-title {
+    font-weight: 700;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5em;
+  }
+  .card .btn {
+    position: relative;
+    margin-top: 3rem;
+    border-radius:2em;
+    background-color: crimson;
+    color: #ffffff;
+    padding: .8em 2em;
+    text-decoration: none;
+    padding-top: .8rem;
+    border: 1px solid black;
+  }
+  .card .btn:hover {
+        border: 1px solid;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        outline-color: rgba(255, 255, 255, 0);
+        outline-offset: 15px;
+        text-shadow: 1px 1px 2px #427388; 
+        cursor: pointer;
+  }
+.card-text {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Delius', cursive;
+    padding-bottom: 2rem;
+}
+
